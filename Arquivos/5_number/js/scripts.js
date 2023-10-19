@@ -1,19 +1,20 @@
-var numero = 5;
+var verdadeiro = true;
 
-console.log(numero);
-console.log(typeof numero);
+console.log(verdadeiro);
+console.log(typeof verdadeiro);
 
-var float = 5.32;
+console.log(typeof true);
+console.log(typeof false);
 
-console.log(float);
-console.log(typeof float);
+var falso = false;
 
-var textoComNumero = '523';
+console.log(falso);
+console.log(typeof falso);
 
-console.log(textoComNumero);
-console.log(typeof textoComNumero);
+//var false = 3; <<<<<< ERRADO <<<
 
-console.log(NaN);
-console.log(typeof NaN);
-console.log(typeof +Infinity);
-console.log(typeof -Infinity);
+//var true = 3; <<<<<< ERRADO <<<
+
+//var var = 3; <<<<<< ERRADO <<<
+
+//var function = 3; <<<<<< ERRADO <<<
